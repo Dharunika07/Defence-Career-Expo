@@ -1,5 +1,5 @@
 #ssb-workshop-page {
-  background-image: url('../../assets/ssb-workshop-bg.jpeg');
+  background-image: url("../../assets/ssb-workshop-bg.jpeg");
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,13 +8,13 @@
   background-color: #00000080;
 }
 
-#ssb-workshop-page > *{
+#ssb-workshop-page > * {
   z-index: 5;
 }
 
 #ssb-workshop-page > h3 {
   text-transform: uppercase;
-  margin-left: auto;
+  margin: auto;
   color: #aaa;
   text-shadow: 3px 2px 3px #000;
   font-weight: 800;
@@ -33,7 +33,6 @@
   line-height: 2rem;
   text-align: center;
   font-size: clamp(1rem, 4vw, 1.4rem);
-
 }
 
 .res-persons-det > h3 {
@@ -47,7 +46,10 @@
   flex-wrap: wrap;
   margin: auto 0;
 }
-
+#ssb-steps-wrapper div {
+  display: flex;
+  align-items: center;
+}
 .ssb-step {
   width: clamp(100px, 25vw, 300px);
   /* width: 20%; */
@@ -64,6 +66,6 @@
   text-shadow: 1px 1px 3px #00000090;
 }
 
-#ssb-workshop-page > p{
-  margin:2rem 0;
+#ssb-workshop-page > p {
+  margin: 2rem 0;
 }
