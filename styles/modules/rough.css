@@ -78,13 +78,13 @@ body {
   border-radius: 8px;
   width: 100px;
   cursor: pointer;
-  background-color: red;
-  border: 2px solid red;
+  background-color: gray;
+  border: 2px solid blue;
 }
 
 .rmcont:hover {
   background-color: white;
-  color: red;
+  color: blue;
 }
 @media screen and (max-width: 900px) {
   .overmainimage .vision,
