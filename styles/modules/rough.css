@@ -71,20 +71,20 @@ body {
 .rmcont {
   align-self: center;
   padding: 5px;
-  color: #000000;
+  
   font-size: 16px;
   display: flex;
   justify-content: center;
   border-radius: 8px;
   width: 100px;
   cursor: pointer;
-  background-color: gray;
-  border: 2px solid blue;
+  
+  border: 2px solid white;
 }
 
 .rmcont:hover {
   background-color: white;
-  color: blue;
+  color: black;
 }
 @media screen and (max-width: 900px) {
   .overmainimage .vision,
